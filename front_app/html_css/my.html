@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MY 페이지</title>
+	<link rel="stylesheet" href="my.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="header_notch">
+			<!-- 아이폰 상단 부분(시간, 와이파이, 베터리) 때문에 남겨놨습니다 -->
+		</div>
+		<div class="header_wrapper">
+            <div class="header_up">
+                <img src="image/settings.png">
+            </div>
+			<div class="header_down">
+                <div class="my_profile_image">
+                    <img src="image/profile.jpg">
+                </div>
+                <div class="my_text">
+                    <span class="my_nickname">안양용용이님</span>
+                    <span class="my_welcome_text">
+                        어서오세요!
+                    </span>
+                </div>
+            </div>
+		</div>
+        <div class="countbox_background">
+            <!-- //배경용 -->
+        </div>
+        <div class="countbox_wrap">
+            <div class="countbox">
+                <div class="number_on_sale">
+                    <div class="countbox_title">
+                        판매중
+                    </div>
+                    <div class="number">
+                        2
+                    </div>
+                </div>
+                <div class="number_of_sale">
+                    <div class="countbox_title">
+                        판매 개수
+                    </div>
+                    <div class="number">
+                        100
+                    </div>
+                </div>
+                <div class="number_of_purchase">
+                    <div class="countbox_title">
+                        구매 개수
+                    </div>
+                    <div class="number">
+                        50
+                    </div>
+                </div>
+            </div>
+        </div>
+	</header>
+	<section>
+        <div class="section_top">
+            <div class="tab">
+                <div class="sell_list">
+                    <div class="tab_sell_list" onclick="openTab(event, 'TabA')">판매중</div>
+                    <div class="tab_sell_list" onclick="openTab(event, 'TabB')">판매 완료</div>
+                </div>
+                <div class="read_more">
+                    <span>자세히 보기</span>
+                    <img src="image/angle-right.png">
+                </div>
+            </div>
+            <div id="TabA" class="sell_list_content">
+                <div class="item"> 
+                    <div class="image">
+                        <div class="image">
+                            <div class="sell_image">
+                                <img src="image/상품이미지.jpg">
+                            </div>
+                            <img class="heart" src="image/heart.png">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> 
+                    <div class="image">
+                        <div class="image">
+                            <div class="sell_image">
+                                <img src="image/상품이미지.jpg">
+                            </div>
+                            <img class="heart" src="image/heart.png">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> 
+                    <div class="image">
+                        <div class="image">
+                            <div class="sell_image">
+                                <img src="image/상품이미지.jpg">
+                            </div>
+                            <img class="heart" src="image/heart.png">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> 
+                    <div class="image">
+                        <div class="sell_image">
+                            <img src="image/상품이미지.jpg">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> 
+                    <div class="image">
+                        <div class="sell_image">
+                            <img src="image/상품이미지.jpg">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_bottom">
+            <div class="tab">
+                <div class="sell_list">
+                    <div class="tab_sell_list" onclick="openTab(event, 'TabC')">구매 완료</div>
+                </div>
+                <div class="read_more">
+                    <span>자세히 보기</span>
+                    <img src="image/angle-right.png">
+                </div>
+            </div>
+            <div id="TabA" class="sell_list_content">
+                <div class="item"> 
+                    <div class="image">
+                        <div class="image">
+                            <div class="sell_image">
+                                <img src="image/상품이미지.jpg">
+                            </div>
+                            <img class="heart" src="image/heart.png">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> 
+                    <div class="image">
+                        <div class="image">
+                            <div class="sell_image">
+                                <img src="image/상품이미지.jpg">
+                            </div>
+                            <img class="heart" src="image/heart.png">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> 
+                    <div class="image">
+                        <div class="image">
+                            <div class="sell_image">
+                                <img src="image/상품이미지.jpg">
+                            </div>
+                            <img class="heart" src="image/heart.png">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> 
+                    <div class="image">
+                        <div class="sell_image">
+                            <img src="image/상품이미지.jpg">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> 
+                    <div class="image">
+                        <div class="sell_image">
+                            <img src="image/상품이미지.jpg">
+                        </div>
+                        <img class="heart" src="image/heart.png">
+                    </div>
+                    <div class="down">
+                        <div class="text">
+                            <div class="title_text">전기장판 팔아요</div>
+                            <div class="location">
+                                <img src="image/marker.png">
+                                <div class="location_text">하얼빈공업대학교</div>
+                            </div>
+                            <div class="price_text"_text>15元</div>
+                        </div>
+                        <div class="details">
+                            <img src="image/menu-dots-vertical.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+	</section>
+	<footer>
+		<div class="bottom">
+			<div class="menu">
+				<a href="#" class="home">
+					<div class="icon">
+						<img src="image/home2.png">
+					</div>
+					<div class="title">
+						홈
+					</div>
+				</a>
+				<a href="#" class="community">
+					<div class="icon">
+						<img src="image/community.png">
+					</div>
+					<div class="title">
+						커뮤니티
+					</div>
+				</a>
+				<a href="#" class="chat">
+					<div class="icon">
+						<img src="image/chat.png">
+					</div>
+					<div class="title">
+					    채팅
+					</div>
+				</a>
+				<a href="#" class="my">
+					<div class="icon">
+						<img src="image/my2.png">
+					</div>
+					<div class="title">
+						MY
+					</div>
+				</a>
+			</div>
+			<div class="home_indicator">
+				<div class="home_indicator_black">
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
